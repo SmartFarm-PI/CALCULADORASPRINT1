@@ -65,12 +65,12 @@ body {
 }
 
 .calculadora {
-    width: 29%;
+    width: 31%;
     height: 80%;
     background-color: white;
     align-items: center;
     float: left;
-    margin-left: 6%;
+    margin-left: 4%;
     border-radius: 8%;
     box-shadow: 5px 5px 25px  rgb(97, 97, 97);
     font-size: small;
@@ -109,10 +109,11 @@ align-items: center;
 }
 
 .mensagemfinal {
-font-size: large;
+font-size: x-large;
 color: #ffffff;
 font-weight: bold;
 size: 40px;
+
 }
 
 
@@ -124,8 +125,11 @@ margin-left: 20px;
 }
 
 .mensagemfim {
-
+width: 50%;
 text-align: center;
+float: right;
+margin-right: 70px;
+
 }
 
 .vermelhodiv {
@@ -138,5 +142,11 @@ color: red;
 .verdediv {
 
 color: rgb(3, 228, 3);
+
+}
+
+.azuldiv {
+
+   color: rgb(0, 145, 255); 
 
 }
