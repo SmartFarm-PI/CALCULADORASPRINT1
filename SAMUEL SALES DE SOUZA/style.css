@@ -1,25 +1,31 @@
 .body {
-    background-color: #67b78e; /* define a cor de fundo da body*/
+    background-color: #67b78e;
+    /* define a cor de fundo da body*/
     margin: 0;
-    padding: 0; /* Remove margens e preenchimentos padrão */
+    padding: 0;
+    /* Remove margens e preenchimentos padrão */
     /* Usa flexbox para centralizar conteúdo verticalmente e horizontalmente */
     display: flex;
     justify-content: center;
     align-items: center;
-     /* Define a altura como 100% da altura da janela de visualização */
+    /* Define a altura como 100% da altura da janela de visualização */
     height: 100vh;
 
 }
 
 .div_pai {
     background-color: #ffffff;
-    margin: auto; /* Centraliza a div horizontalmente */
-    width: 1200px; /* Define a largura */
-    min-height: 600px;  /* Define a altura mínima */
-    font-family: 'Arial'; 
+    margin: auto;
+    /* Centraliza a div horizontalmente */
+    width: 1200px;
+    /* Define a largura */
+    min-height: 600px;
+    /* Define a altura mínima */
+    font-family: 'Arial';
     font-size: 18px;
     color: #ffffff;
-    border-radius: 1%; /* Define a borda com um pequeno arredondamento */
+    border-radius: 1%;
+    /* Define a borda com um pequeno arredondamento */
     color: black;
     display: flex;
     justify-content: space-between;
@@ -29,16 +35,20 @@
 
 .conf_txt {
     width: 932px;
-    overflow-wrap: break-word; /*define a quebra de linha, sem que ultrapesse o elemento pai*/
-    line-height: 1.8; /* espaçamento entre linhas*/
-    word-spacing: 5px; /*distancia entre as palavras na horizontal*/
+    overflow-wrap: break-word;
+    /*define a quebra de linha, sem que ultrapesse o elemento pai*/
+    line-height: 1.8;
+    /* espaçamento entre linhas*/
+    word-spacing: 5px;
+    /*distancia entre as palavras na horizontal*/
 }
 
 .h1_simulador {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px; /* Define a margem inferior*/
+    margin-bottom: 10px;
+    /* Define a margem inferior*/
 }
 
 .h3_calculadora {
@@ -138,13 +148,15 @@
 }
 
 .div_img {
-    margin-left: 75px; 
+    margin-left: 75px;
     /* Define a margem à direita*/
 
 }
 
 .div_filha div {
     color: rgb(0, 0, 0);
-    padding: 10px; /* Define o preenchimento */
-    line-height: 1.5; /*espaçamento entre linhas*/
+    padding: 10px;
+    /* Define o preenchimento */
+    line-height: 1.5;
+    /*espaçamento entre linhas*/
 }
